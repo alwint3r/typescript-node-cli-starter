@@ -1,0 +1,31 @@
+{
+  "name": "typescript-node-cli-starter",
+  "version": "0.0.0",
+  "description": "Starter template for CLI project based on TypeScript and Node.js",
+  "main": "dist/cli.js",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc -w"
+  },
+  "bin": {
+    "typescript-node-cli": "./dist/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/DyCode/DycodeX/typescript-node-cli-starter.git"
+  },
+  "author": "Alwin Arrasyid <alwin@dycodex.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/DyCode/DycodeX/typescript-node-cli-starter/issues"
+  },
+  "homepage": "https://gitlab.com/DyCode/DycodeX/typescript-node-cli-starter#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.36",
+    "@types/yargs": "^17.0.10",
+    "typescript": "^4.7.2"
+  },
+  "dependencies": {
+    "yargs": "^17.5.1"
+  }
+}
